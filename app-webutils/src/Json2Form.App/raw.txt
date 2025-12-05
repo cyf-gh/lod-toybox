@@ -1,0 +1,4 @@
+<div class="form-group">
+<label for="$$$$">Label here</label>
+<input id="$$$$" #$$$$ formControlName="$$$$" type="^^^^" class="form-control" placeholder="">
+</div>

@@ -1,0 +1,153 @@
+# SwitchHosts!
+
+# My hosts
+
+127.0.0.1 localhost 
+
+# GitHub Start
+13.250.177.223 github.com
+8.7.198.45 gist.github.com
+185.199.108.153 assets-cdn.github.com
+151.101.24.133 raw.githubusercontent.com
+151.101.24.133 gist.githubusercontent.com
+151.101.24.133 cloud.githubusercontent.com
+151.101.24.133 camo.githubusercontent.com
+151.101.24.133 avatars0.githubusercontent.com
+151.101.24.133 avatars1.githubusercontent.com
+151.101.24.133 avatars2.githubusercontent.com
+151.101.24.133 avatars3.githubusercontent.com
+151.101.24.133 avatars4.githubusercontent.com
+151.101.24.133 avatars5.githubusercontent.com
+151.101.24.133 avatars6.githubusercontent.com
+151.101.24.133 avatars7.githubusercontent.com
+151.101.108.133 avatars8.githubusercontent.com# GitHub End
+
+
+# gist.github
+192.30.253.118 gist.github.com
+
+13.229.188.59 github.com
+13.250.177.223 github.com
+151.101.196.133 assets-cdn.github.com
+151.101.24.133 assets-cdn.github.com
+151.101.77.194  github.global.ssl.fastly.net
+151.101.229.194 github.global.ssl.fastly.net
+185.31.16.1185 github.global.ssl.fastly.net
+74.125.237.1 dl-ssl.google.com
+173.194.127.200 groups.google.com
+192.30.252.131 github.com
+185.31.16.185 github.global.ssl.fastly.net
+74.125.128.95 ajax.googleleapis.com
+
+151.101.72.249 github.global.ssl.fastly.net  
+192.30.253.112 github.com
+
+103.245.222.249 github.global.ssl.fastly.net
+103.245.222.133 assets-cdn.github.com
+
+66.29.212.110    w3schools.com
+68.232.44.251    www.w3schools.com
+219.76.4.4 github-cloud.s3.amazonaws.com
+
+
+# Yahoo.jp
+182.22.25.124   search.yahoo.co.jp
+162.125.2.1     www.dropbox.com
+
+# avgle
+104.20.116.27   avgle.com
+104.20.116.27   avgle.com
+213.174.135.1   static.avgle.com
+213.174.135.2   static.avgle.com
+127.0.0.1       spot-01.atas.io
+127.0.0.1       main.exosrv.com
+127.0.0.1       isafe.pro
+127.0.0.1       bit.ly
+127.0.0.1       static.javhd.com
+127.0.0.1       pussl48.com
+127.0.0.1       adserver.juicyads.com
+127.0.0.1       syndication.exosrv.com
+127.0.0.1       static.exosrv.com
+127.0.0.1       www.poweredbyliquidfire.mobi
+104.31.0.189    qooqlevideo.com
+
+# steam
+104.115.209.150 store.steampowered.com
+
+
+103.86.70.254 store.steampowered.com
+
+103.86.70.254 steamcommunity.com
+
+117.121.249.253 valve.vo.llnwd.net
+
+117.121.249.253 cdn.steampowered.com
+
+117.121.249.253 cdn.store.steampowered.com
+
+117.121.249.253 cdn.steamcommunity.com
+
+117.121.249.253 media.steampowered.com
+
+104.115.209.150 steamcommunity.com
+
+# discord
+
+104.16.248.144 dl.discordapp.net
+104.16.60.37 gateway.discord.gg
+104.16.11.231 status.discordapp.com
+104.16.9.231 cdn.discordapp.com
+104.16.59.5 discordapp.com
+104.16.250.144 media.discordapp.net
+104.16.249.144 images-ext-2.discordapp.net
+104.16.250.144 images-ext-1.discordapp.net
+151.101.78.214 static-cdn.jtvnw.net
+
+# Wikipedia
+
+# 英文维基百科桌面版
+198.35.26.96 en.wikipedia.org
+2620:0:863:ed1a::1 en.wikipedia.org
+
+# 中文维基百科桌面版
+198.35.26.96 zh.wikipedia.org
+2620:0:863:ed1a::1 zh.wikipedia.org
+
+# 粤文维基百科桌面版
+198.35.26.96 zh-yue.wikipedia.org
+2620:0:863:ed1a::1 zh-yue.wikipedia.org
+
+# 吴语维基百科桌面版
+198.35.26.96 wuu.wikipedia.org
+2620:0:863:ed1a::1 wuu.wikipedia.org
+
+# 维吾尔文维基百科桌面版
+198.35.26.96 ug.wikipedia.org
+2620:0:863:ed1a::1 ug.wikipedia.org
+
+# 日文维基百科桌面版
+198.35.26.96 ja.wikipedia.org
+2620:0:863:ed1a::1 ja.wikipedia.org
+
+# 中文维基新闻桌面版
+198.35.26.96 zh.wikinews.org
+2620:0:863:ed1a::1 zh.wikinews.org
+# 英文维基百科移动版
+198.35.26.96  en.m.wikipedia.org
+2620:0:863:ed1a::1 en.m.wikipedia.org
+
+# 中文维基百科移动版
+198.35.26.96 zh.m.wikipedia.org
+2620:0:863:ed1a::1 zh.m.wikipedia.org
+
+# 维吾尔文维基百科移动版
+198.35.26.96 ug.m.wikipedia.org
+2620:0:863:ed1a::1 ug.m.wikipedia.org
+
+# 日文维基百科移动版
+198.35.26.96 ja.m.wikipedia.org
+2620:0:863:ed1a::1 ja.m.wikipedia.org
+
+# 中文维基新闻移动版
+198.35.26.96 zh.m.wikinews.org
+2620:0:863:ed1a::1 zh.m.wikinews.org

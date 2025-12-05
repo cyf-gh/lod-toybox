@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Json2Form.App", "Json2Form.App\Json2Form.App.csproj", "{E33935C2-922B-4931-A026-395BB8E2B0BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUtils.Core", "WebUtils.Core\WebUtils.Core.csproj", "{C9F595BB-34DC-46B6-810B-E3AE24FD66D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E33935C2-922B-4931-A026-395BB8E2B0BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E33935C2-922B-4931-A026-395BB8E2B0BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E33935C2-922B-4931-A026-395BB8E2B0BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E33935C2-922B-4931-A026-395BB8E2B0BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F595BB-34DC-46B6-810B-E3AE24FD66D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F595BB-34DC-46B6-810B-E3AE24FD66D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F595BB-34DC-46B6-810B-E3AE24FD66D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F595BB-34DC-46B6-810B-E3AE24FD66D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E02012D9-7A3A-4169-B0CD-888EBED08CDA}
+	EndGlobalSection
+EndGlobal
