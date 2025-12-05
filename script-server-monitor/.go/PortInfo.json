@@ -1,0 +1,10 @@
+[
+  { "port": 2222, "desc": "Linux SSH" },
+  { "port": 3389, "desc": "Windows Remote Control" },
+  { "port": 4443, "desc": "Music Stream Server - HTTPS" },
+  { "port": 5555, "desc": "Music Stream Server" },
+  { "port": 5225, "desc": "HFS File Server" },
+  { "port": 8123, "desc": "Minecraft Server Web Map" },
+  { "port": 8888, "desc": "Site" },
+  { "port": 25565, "desc": "Minecraft Server" }
+]
