@@ -9,22 +9,22 @@
 
 | 目录 | 内容 | 语言/框架 | 备注 |
 |---|---|---|---|
-| app-dm-dotnet | 哔哩哔哩第三方 UWP 客户端 | C# / UWP | 旧版本，仅供学习 UWP 结构参考 |
+| app-dm-dotnet | 磁盘操作工具 | C# / UWP | （已弃用） |
 | app-formfiller | OfficeFormFiller | C# | 简易 Office 表单批量填写工具 |
 | app-happyhandingin | HappyHandingIn 桌面端+安卓端 | C# / Xamarin | 作业收集小工具，含后端 |
-| app-impnonjs | impnonjs + 插件仓库 | C++ / DirectInput/XInput | 将手柄输入映射为键盘，目前无法编译 |
+| app-impnonjs | impnonjs + 插件仓库 | C++ / DirectInput/XInput |  （已弃用）将手柄输入映射为键盘，目前无法编译 |
 | app-updater | ppUpdator | C# | 增量更新器，支持压缩包解压与自启动 |
 | app-videotogether | VideoTogether | C# | 同步观影小工具 |
-| app-watermark-adder | Watermarker | C# | 图片/视频批量加水印 |
-| app-web-utils | Web-Development-Utils | C# | Json→Form 等 ASP.NET 辅助脚本 |
-| game-lastwitch1 | LastWitch.App | 未知 | 游戏《LastWitch》原型，代码缺失 |
+| app-watermark-adder | Watermarker | C# |  （已弃用）图片/视频批量加水印 |
+| app-web-utils | Web-Development-Utils | C# |  （已弃用）Json→Form 等 ASP.NET 辅助脚本 |
+| game-lastwitch1 | LastWitch.App | 未知 |  （已弃用）游戏《LastWitch》原型，代码缺失 |
 | gameengine-st2d | stLib(st2d) | C++ | 2D 游戏引擎，已归档，重构中 |
 | hack-ppt-thief | pppt | C# | 课件静默拷贝小工具，仅教学演示 |
 | notes | Learning-Algorithm-DataStructure、Learning-Haskell | Markdown | 算法与函数式学习笔记 |
 | script-server-monitor | Server.Monitor | C# | 服务器状态监控脚本 |
-| script-sosdan-bots | SOSDanBots | 未知 | 弹幕机器人合集，无文档 |
-| script-zst-automation | ZSTAutomation | Python / Airtest | 移动设备点击自动化脚本 |
-| web-campus-toolbox | CampusToolbox 前端+后端 | Angular / ASP.NET Core | 校园工具箱实验项目，含前后端 |
+| script-sosdan-bots | SOSDanBots | 未知 |  （已弃用）弹幕机器人合集，无文档 |
+| script-zst-automation | ZSTAutomation | Python / Airtest |  （已弃用）移动设备点击自动化脚本 |
+| web-campus-toolbox | CampusToolbox 前端+后端 | Angular / ASP.NET Core |  （已弃用）校园工具箱实验项目，含前后端 |
 
 ## 使用须知  
 1. 所有二进制文件已移除，需自行编译。  
