@@ -1,0 +1,37 @@
+<div nz-row nzType="flex" nzJustify="center" style="padding:30px;">
+  <div nz-col nzSpan="6">
+    <nz-card nzTitle="登陆你的账户">
+      <form nz-form class="login-form" (submit)="submitLogin()" [formGroup]="this.formModel">
+        <nz-form-item>
+          <nz-form-control>
+            <nz-input-group [nzPrefix]="prefixUser">
+              <input type="text" nz-input formControlName="loginName" placeholder="loginName" />
+            </nz-input-group>
+            <nz-form-explain *ngIf="formModel.get('loginName')?.dirty && formModel.get('loginName')?.errors">
+              请输入登陆邮箱或手机</nz-form-explain>
+          </nz-form-control>
+        </nz-form-item>
+        <nz-form-item>
+          <nz-form-control>
+            <nz-input-group [nzPrefix]="prefixLock">
+              <input type="password" nz-input formControlName="password" placeholder="Password" />
+            </nz-input-group>
+            <nz-form-explain *ngIf="formModel.get('password')?.dirty && formModel.get('password')?.errors">
+              请输入密码</nz-form-explain>
+          </nz-form-control>
+        </nz-form-item>
+        <nz-form-item>
+          <nz-form-control>
+            <label nz-checkbox formControlName="remember">
+              <span>保持登录状态</span>
+            </label>
+            <a class="login-form-forgot" class="login-form-forgot" style="float:right;">忘记密码</a>
+            <br>
+            <button nz-button class="login-form-button" [nzType]="'primary'">登陆</button>
+            <a href="" style="float:right;">没有账户？注册一个！</a>
+          </nz-form-control>
+        </nz-form-item>
+      </form>
+    </nz-card>
+  </div>
+</div>

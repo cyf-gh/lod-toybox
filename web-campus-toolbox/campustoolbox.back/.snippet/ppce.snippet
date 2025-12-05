@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>SnippetFile1</Title>
+      <Author>cyf</Author>
+      <Description>
+      </Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>ppce</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>Message</ID>
+          <ToolTip>Message</ToolTip>
+          <Default>Message</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>Code</ID>
+          <ToolTip>Code</ToolTip>
+          <Default>Code</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>MessageFront</ID>
+          <ToolTip>MessageFront</ToolTip>
+          <Default>MessageFront</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>WhatException</ID>
+          <ToolTip>WhatException</ToolTip>
+          <Default>WhatException</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp" Delimiter="$"><![CDATA[    public class $WhatException$ : ControllerException {
+        const string msg = $Message$;
+
+        public $WhatException$() : base( msg ) { }
+
+        public override IActionResult HttpResult() {
+            return ActionResultHelper.CreateResult( HttpStatusCode.BadRequest, new ErrorInfoFrontModel {
+                ErrorCode = ErrorInfoCode.$Code$,
+                Detail = $MessageFront$
+            } );
+        }
+    }]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
